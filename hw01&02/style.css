@@ -1,0 +1,24 @@
+* { text-align : center;
+}
+
+h1 {color: blueviolet;
+
+    font-style:oblique;
+      }
+ 
+
+ul { list-style-position: inside;
+
+}
+.css-priority {
+    text-decoration:underline;
+    color: brown;
+}
+.css-heading {
+font-size:x-large;
+}
+
+.css-list-item {
+    color: rgb(64, 116, 12);
+    font-style: inherit;
+}
