@@ -2,26 +2,26 @@
 /* * {box-sizing: border-box;
 } */
 .button {
-  margin: 10px;
-  padding: 15px 30px;
-  border: none;
- 
-  border-radius: 7px;
-
-  font-size: large;
-  font-family: serif;
-}
-.button:hover {
-  color: black;
-}
-.green {
-  color: white;
-  background-color: #778d45;
-  font-size: 12px;
-}
-
-.light-green {
-  background-color: #aec09a;
-  color: #fff;
-  font-size: 12px;
-}
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+   
+    border-radius: 7px;
+  
+    font-size: large;
+    font-family: serif;
+  }
+  .button:hover {
+    color: black;
+  }
+  .green {
+    color: white;
+    background-color: #778d45;
+    font-size: 12px;
+  }
+  
+  .light-green {
+    background-color: #aec09a;
+    color: #fff;
+    font-size: 12px;
+  }
