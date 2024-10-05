@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -32,7 +33,6 @@ main {
   justify-content: center;
   width: 100%;
   padding: 20px 30px;
-  background-color: rgb(227, 227, 227);
 }
 
 .grid-cards-gallery {
@@ -63,6 +63,7 @@ main {
 .grid-cards-gallery img {
   margin-bottom: 15px;
 }
+
 footer {
   width: 100%;
   padding: 10px 40px;
@@ -72,24 +73,29 @@ footer {
   min-height: 130px;
   background-color: #abaeae;
 }
+
 .nav-footer {
   display: flex;
   min-width: 700px;
   justify-content: space-evenly;
 }
+
 .logo-footer {
   width: 50px;
 }
+
 .nav-text-footer a {
   margin-right: 30px;
   padding: 6px;
   font-size: 16px;
 }
+
 .icons-footer {
   display: flex;
   align-items: center;
   justify-items: end;
 }
+
 .icons-footer a {
   padding: 10px;
 }
