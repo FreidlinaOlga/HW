@@ -13,6 +13,7 @@ const inputArray = ['F', '98.2', 'Daniel Gabriel Fahrenheit'];
 const outputObject = arrayToObject(inputArray);
 console.log(outputObject);
 
+
 // 2. Напишите функцию, которая превратит массив который содержит элементы в виде массивов из двух элементов, в объект. Первый элемент каждого внутреннего массива ключ, второй - значение. Например такой:
 // [
 //   [ 'height', 170 ],
@@ -40,6 +41,17 @@ function dataToObject(arr) {
   
   const tilSchweiger = dataToObject(tilSchweigerdata);
   console.log(tilSchweiger);
+
+  // Способ с foreach. Можно также с fromEntries
+  function arrayToObject2(array) {
+    const result={};
+    array.forEach(el=>{
+      const[key,value] = el;
+      result[key] = value;
+    });
+    return result;
+  }
+
 
 // 3. Функция должна принимать объект и возвращать строку, где будут перечислены все значения свойств объекта через запятую.
 // Пример работы функции:

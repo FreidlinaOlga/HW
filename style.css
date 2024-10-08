@@ -1,2 +1,4 @@
-* { text-align : center;
+.body {
+  display: block;
+  text-align: center;
 }
