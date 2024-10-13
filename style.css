@@ -1,4 +1,15 @@
-.body {
-  display: block;
+body {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+margin-top: 100px;
+
+  color: #333;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+ul {
+  display: contents;
 }

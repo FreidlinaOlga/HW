@@ -1,14 +1,13 @@
 h1 {
-    font-size: 250%;
- 
-}
+    font-size: 200%;
+ }
 body {
     font-size:x-large;
     font-weight:700;
-}
+  }
 .first_paragraph {
     width: 770px;
-    height: 45px;
+    height: 55px;
     margin: 5px;
     padding: 10px;
     border: 3px solid rgb(23, 8, 8);
@@ -17,7 +16,7 @@ body {
   }
   .sec_paragraph {
     width: 770px;
-    height: 75px;
+    height: 125px;
     margin: 5px;
     padding: 10px;
     border:  3px solid rgb(20, 3, 3);
@@ -26,7 +25,7 @@ body {
   }
   .third_paragraph {
     width: 770px;
-    height: 48px;
+    height: 90px;
     margin: 5px;
     padding: 10px;
     border:  3px solid rgb(23, 8, 8);
@@ -36,7 +35,7 @@ body {
 
    .fourth_paragraph  { 
     width: 770px;
-    height: 140px;
+    height: 170px;
     margin: 5px;
     padding: 10px;
     border:  3px solid rgb(23, 8, 8);
